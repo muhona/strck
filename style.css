@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*******navbar*******/
+.is-sticky {
+    width:100%;
+    z-index:999;
+}
+
+div#sticky-wrapper{
+    position:relative;
+}
+.is-sticky .top-area{
+    background-color: #616974;
+}
+.is-sticky ul li a:hover{
+    background-color: #09ACF7;
+}
+.bg-info{
+    background:white !important;  
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	background: #09ACF7;
+	color: white;
+	border-radius: 5px;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 12px;
+    text-transform: uppercase;
+    transition: 1s; 
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  background: #09ACF7;
+}
+.logo{
+    margin-bottom:12px ;
+    margin-top: 12px  
+}
+/*******end_navbar*******/
+/*****banner_section********/
+.banner-section{
+    background: url('images/banner.png');
+    height: :300px;
+    width: :100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner-text h2{
+    color: white;
+    font-size: 55px;
+    padding-top: 250px;
+    padding-bottom: 10px;
+    font-family: 'Fugaz One', cursive;
+
+}
+.hr{
+    border-bottom: 2px solid #5A5661; 
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom:  10px;
+    
+}
+.banner-text p{
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;  
+}
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+    text-transform: capitalize;
+	border: 1px solid #09ABF7;
+	padding: 8px 25px;
+    font-size: 17px;
+    color: white;
+	margin-bottom: 200px !important;
+	margin-top: 15px;
+    margin-left: 15px !important;
+}
+/**********end_banner_section***********/
+/*******about_section******/
+.about-text h1{
+    color:#2C3D4E;
+    text-transform: capitalize;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-family: 'Oleo Script', cursive;
+}
+.about-text p {
+	color: #2C3D4E;
+	text-transform: capitalize;
+	font-size: 20px;
+	padding-bottom: 100px;
+	font-weight: 500;
+	line-height: 25px;
+}
+/*******end_about_section******/
+/*******feature_section********/
+.ptb{
+    padding: 150px 0px;
+}
+.section_padding{
+    padding: 100px 0px;
+}
+.feature-text i{
+    background: #09ABF7;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 80px;
+    height: 80px;
+}
+.feature-text h3{
+    color: black;
+    font-size:30px;
+    font-weight: 500;
+    font-family: 'Coda', cursive;
+    font-family: 'Marmelad', sans-serif;  
+}
+.feature-text p {
+	color: #9FAFC6;
+	font-size: 17px;
+	line-height: 21px;
+}
+/*******end_feture_section******/
+.portfolio-section{
+    padding: 100px 0px;
+}
+.portfolio-text h2{
+    color: black;
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: 500;
+font-family: 'Oleo Script', cursive;
+}
+.portfolio-text p {
+	color: black;
+	font-size: 22px;
+}
+
+.portfolio-img{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+}
+.portfolio-img img{
+    width: 100%;
+}
+.img-overly{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(42,146,273,0.5);
+    transform: scale(0);
+    left: 0;
+    top: 0;
+    transition:1s;
+}
+.portfolio-img:hover .img-overly{
+    transform: scale(1);
+   
+    
+}
+.img-icon{
+    position: absolute;
+    top: -100px;
+}
+.portfolio-img:hover .img-icon{
+    top: 120px;
+    left: 130px;
+}
+.img-icon i{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+
+}
+/*********-contact-section********/
+.contact {
+    background:url(images/footer-top-bg.png);
+    background-size:cover;
+    width: 100%;
+   
+    
+}
+.contact-text h2 {
+	text-align: center;
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 34px;
+    color: #fff;
+    font-family:arial; 
+    font-family: 'Oleo Script', cursive;
+}
+.contact-text p {
+	text-align: center;
+	padding-bottom: 15px;
+	line-height: 4px;
+    color: #ddd;
+}
+textarea {
+	overflow: auto;
+	resize: vertical;
+	background-color: transparent;
+	width: 100%;
+	height: 200px;
+	margin-top: 17px;
+	color: white;
+    padding: 10px;
+}
+.form-check {
+	position: relative;
+	display: inline-block;
+	float: left;
+    color: black; 
+    font-size: 15px;
+}
+.form-control {
+	display: block;
+	width: 100%;
+	color: #495057;
+	background-color:transparent;
+	border: 1px solid #ced4da;
+ 
+
+}
+.form-check {
+	padding: 0;
+}
+.button a {
+	color: #007bff;
+	text-decoration: none;
+	background: #0069D9;
+	padding: 6px 28px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	/* margin-left: 300px; */
+	float: right;
+}
+
+/*****end_contact-section*****/
+/**********footer-section********/ 
+.footer-text p{
+	color: #AA9999;
+}
+.footer-icon{
+    overflow: hidden;
+    
+}
+.footer-icon i{
+    text-align: center;  
+    color: white;
+    font-size: 20px;;
+    background: #0069D9;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+
+}
+
+/*****end_footer-section*****/
+@media only screen and (max-width: 600px) {
+   .about-text h1 {
+	font-size: 30px;	
+} 
+.about-text p {
+	font-size: 15px;
+	text-align: justify;
+}
+.feature-text h3 {
+	font-size: 23px;
+	
+}
+.portfolio-text h2 {
+	font-size: 24px;
+
+}
+.portfolio-text p {
+	font-size: 20px;
+}
+.portfolio-img:hover .img-icon {
+	top: 98px;
+	left: 114px;
+}
+.feature-text {
+	margin-bottom: 42px;
+}
+    
+}
